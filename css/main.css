@@ -42,7 +42,6 @@ nav a:last-child{
 /*Sections for home page(index)*/
 #top{
     width: 100%;
-    height: 500px;
 }
 .get_involved{
     padding: 5% 5%;
@@ -60,4 +59,25 @@ nav a:last-child{
 .get_involved p{
     font-size: 38px;
     line-height: 2;
+}
+#bottom{
+    background-color: #0B1942;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    display: block;
+    padding: 0;
+}
+#bottom h2{
+    color: white;
+    font-size: 64px;
+    padding: 5% 10% 0 10%;
+    margin: 0;
+}
+#shows{
+    margin: 5%;
+    background-color: #E2E2E2;
+    display: flex;
+    flex: 1 45%;
+    padding: 0 5%;
 }
