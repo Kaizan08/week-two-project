@@ -2,6 +2,7 @@
 body{
     width: 100%;
     margin: 0;
+    color: #0B1942;
 }
 .header{
     display: flex;
@@ -18,7 +19,7 @@ nav{
     flex-direction: column;
     text-align: center;
     flex: 1 70%;
-    font-size: 26px;
+    font-size: 36px;
 }
 nav a{
     flex: 1 33%;
@@ -44,5 +45,19 @@ nav a:last-child{
     height: 500px;
 }
 .get_involved{
-    
+    padding: 5% 5%;
+}
+.get_involved h1{
+    font-size: 64px;
+    margin: 0;
+}
+.get_involved h2{
+    color: #ffffff;
+    background-color: #0B1942;
+    font-size: 48px;
+    padding: 15px 30px;
+}
+.get_involved p{
+    font-size: 38px;
+    line-height: 2;
 }
