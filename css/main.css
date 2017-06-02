@@ -62,7 +62,7 @@ nav a:last-child{
 }
 #bottom{
     background-color: #0B1942;
-    height: 500px;
+    height: 800px;
     width: 100%;
     margin: 0;
     display: block;
@@ -79,5 +79,22 @@ nav a:last-child{
     background-color: #E2E2E2;
     display: flex;
     flex: 1 45%;
-    padding: 0 5%;
+    padding: 5% 5%;
 }
+#shows img{
+    flex: 1 50%;
+    max-height: 325px;
+}
+#Rashomon{
+    flex: 1 40%;
+    padding: 0 5%;
+    font-size: 24px;
+}
+#Rashomon a{
+    font-size: 36px;
+}
+#Rashomon ul{
+    list-style: circle;
+    line-height: 1.5;
+}
+
