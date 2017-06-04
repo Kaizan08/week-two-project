@@ -21,7 +21,7 @@ footer{
     flex-direction: column;
     text-align: center;
     flex: 1 70%;
-    font-size: 28px;
+    font-size: 20px;
 }
 .nav a{
     flex: 1 33%;
@@ -49,8 +49,8 @@ footer{
     width: 100%;
 }
 .get_involved{
-    padding: 5% 5%;
-    font-size: 36px;
+    padding: 0% 5%;
+    font-size: 26px;
     margin: 0;
 }
 .articles h2{
@@ -87,9 +87,10 @@ footer{
 }
 .Rashomon{
     margin-left: 20px;
+    width: 100%;
 }
 .Rashomon a{
-    font-size: 36px;
+    font-size: 26px;
 }
 .Rashomon p{
     border-bottom: solid black;
@@ -125,7 +126,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 36px;
+    font-size: 20px;
 }
 
 @media screen and (min-device-width: 545px){
