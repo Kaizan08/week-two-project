@@ -197,3 +197,37 @@ padding: 15px 30px;
     padding-right: 5%;
     }
 }
+@media screen and (min-device-width: 769px){
+    .h2_main{
+        padding: 2% 0 2% 5%;
+    }
+    #bottom{
+        padding:0;
+    }
+    #bottom h2{
+        padding: 2% 0% 0px 5%;
+    }
+    .all_pics{
+        display: flex;
+    }
+    #shows_wrapper{
+        flex: 1 45%;
+        margin: 0% 0px 0% 3%;
+        padding: 0;
+    }
+    #films{
+        background-color: #E2E2E2;
+        padding: 5% 0;
+        font-size: 16px;
+        flex: 1 45%;
+        margin: 2% 5% 5% 5%;
+    }
+    #shows{
+        background-color: #E2E2E2;
+        display: flex;
+        margin: 5% 0 5% 5%;    
+    }
+    .cols{
+        width: 45%;
+    }
+}
