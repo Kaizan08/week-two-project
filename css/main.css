@@ -11,21 +11,19 @@ footer{
 .header{
     display: flex;
     width: 100%;
-    height: 250px;
 }
 .header img{
     flex: 1 30%;
-    padding: 15px 15px;
     background-color: #F5005B;
 }
-nav{
+.nav{
     display: flex;
     flex-direction: column;
     text-align: center;
     flex: 1 70%;
-    font-size: 36px;
+    font-size: 28px;
 }
-nav a{
+.nav a{
     flex: 1 33%;
     align-items: center;
     justify-content: center;
@@ -33,14 +31,17 @@ nav a{
     text-decoration: none;
     color: white;
 }
-nav a:first-child{
+.nav a:first-child{
     background-color: #00A5BF;
 }
-nav a:nth-child(2){
+.nav a:nth-child(2){
     background-color: #00B7D3;
 }
-nav a:last-child{
+.nav a:nth-child(3){
     background-color: #00D5E7;
+}
+.extra_color{
+    background-color: #7DDFE8;
 }
 
 /*Sections for home page(index)*/
@@ -49,32 +50,29 @@ nav a:last-child{
 }
 .get_involved{
     padding: 5% 5%;
-}
-.get_involved h1{
-    font-size: 64px;
+    font-size: 36px;
     margin: 0;
 }
-.get_involved h2{
+.articles h2{
     color: #ffffff;
     background-color: #0B1942;
-    font-size: 48px;
+    font-size: 24px;
     padding: 15px 30px;
 }
-.get_involved p{
-    font-size: 38px;
+.articles p{
+    font-size: 18px;
     line-height: 2;
 }
 #bottom{
     background-color: #0B1942;
-    height: 1800px;
     width: 100%;
     margin: 0;
     display: block;
-    padding: 0;
+    padding: 0 0 5% 0;
 }
 #bottom h2{
     color: white;
-    font-size: 64px;
+    font-size: 40px;
     padding: 5% 10% 0 10%;
     margin: 0;
 }
@@ -82,57 +80,42 @@ nav a:last-child{
     margin: 5%;
     background-color: #E2E2E2;
     display: flex;
-    flex: 1 45%;
     padding: 5% 5%;
 }
 #shows img{
-    flex: 1 40%;
-    max-height: 325px;
-    padding-right: 5%;
+    max-height: 270px;
 }
-#Rashomon{
-    flex: 1 40%;
-    padding: 0 0 0 5%;
-    font-size: 24px;
+.Rashomon{
+    margin-left: 20px;
 }
-#Rashomon a{
+.Rashomon a{
     font-size: 36px;
 }
-#Rashomon p{
+.Rashomon p{
     border-bottom: solid black;
-    padding-bottom: 20px;
+    padding-bottom: 35px;
 }
-#Rashomon ul{
+.Rashomon ul{
     list-style: circle;
     line-height: 1.5;
 }
 #films{
     background-color: #E2E2E2;
-    display: flex;
     margin: 5%;
-    width: 90%;
-    flex: 1 45%;
+    padding: 5% 0;
+    font-size: 16px;
+}
+.show_dets{
+    display: flex;
     flex-wrap: wrap;
-    padding-bottom: 5%;
-    font-size: 24px;
+    justify-content: space-around;
 }
-#films div{
+.cols{
     display: flex;
-    width: 100%;
-    padding: 5% 0 0 5%;
     flex-direction: column;
-    flex: 1 40%;    
 }
-#films div:nth-child(2), #films div:nth-child(4){
-    display: flex;
-    width: 100%;
-    padding: 5% 5% 0 5%;
-    flex-direction: column;
-    flex: 1 40%;    
-}
-#films p{
-    margin: 0;
-    padding: 0;
+.show_dets img{
+    max-height: 270px;
 }
 .copyright{
     width: 100%;
@@ -144,6 +127,20 @@ nav a:last-child{
     align-items: center;
     font-size: 36px;
 }
-@media screen and (min-width: 545){
-    
+
+@media screen and (min-device-width: 545px){
+    .header img{
+    flex: 1;
+    }
+    .nav{
+        flex: 6;
+        flex-direction: row;
+    }
+    .nav a{
+        flex: 1;
+    }
+    .extra_color{
+        flex: 3;
+    }
+    #films{}
 }
