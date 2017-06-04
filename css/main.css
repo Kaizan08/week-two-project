@@ -53,6 +53,12 @@ footer{
     font-size: 26px;
     margin: 0;
 }
+.h2_main{
+background-color: #ffffff;
+color: #0B1942;
+font-size: 32px;
+padding: 15px 30px;
+}
 .articles h2{
     color: #ffffff;
     background-color: #0B1942;
@@ -127,11 +133,11 @@ footer{
     justify-content: center;
     align-items: center;
     font-size: 20px;
-}
+    }
 
 @media screen and (min-device-width: 545px){
     .header img{
-    flex: 1;
+        flex: 1;
     }
     .nav{
         flex: 6;
@@ -143,5 +149,51 @@ footer{
     .extra_color{
         flex: 3;
     }
-    #films{}
+    .h2_main{
+        background-color: #ffffff;
+        color: #0B1942;
+        font-size: 36px;
+        padding: 15px 30px 0px;
+        margin-bottom: 0;
+    }
+    .articles h2{
+        padding: 10px 10px;
+    }
+    .articles{
+        flex: 1 30%;
+        font-size: 20px;
+        padding: 0 15px 0 0;
+    }
+    .get_involved{
+        margin: 0% 0;
+        padding: 0 0 0 5%;
+        display: flex;
+        justify-content: space-between;
+        width: 92%;
+    }
+    .articles p{
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .show_dets{
+        display: flex;
+        justify-content: space-around;
+        margin: 0 5%;
+    }
+    .cols{
+        width: 20%;
+        padding: 1%;
+    }
+    .copyright{
+    background-color: #7DDFE8;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 20px;
+    flex: 4;
+    width: auto;
+    height: auto;
+    padding-right: 5%;
+    }
 }
