@@ -302,4 +302,58 @@ padding: 15px 30px;
     .cols{
         width: 45%;
     }
+    /*Join page*/
+    .header img{
+        flex: 1;
+    }
+    .nav{
+        flex: 10;
+        flex-direction: row;
+    }
+    .nav a{
+        flex: 1;
+    }
+    .extra_color{
+        flex: 4;
+    }
+    .header{
+        height: 125px;
+    }
+    .join_film{
+        padding: 0 0 0 3%;
+    }
+    .profile{
+        padding: 0 0 0 2%;
+    }
+    .profile label{
+        padding-left: 7%;
+    }
+    .main_inputs{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        height: 20%;
+    }
+    .main_inputs span{
+        flex: 1 35%;
+        padding: 0 2%;
+    }
+    .check_form span{
+        flex: 1 20%;
+    }
+    .check_form span:nth-child(11){
+        flex: 10 1 23%;
+    }
+    .textarea{
+        padding: 5% 5% 3% 5%;
+    }
+    .textarea textarea{
+        width: 75%;
+    }
+    .submit {
+        margin-bottom: 5%;
+    }
+    footer{
+        height: 150px;
+    }
 }
