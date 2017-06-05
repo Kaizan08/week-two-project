@@ -135,6 +135,68 @@ padding: 15px 30px;
     font-size: 20px;
     }
 /*Join page*/
+.join_film{
+    padding: 0 0 0 5%;
+}
+/*.upper_form{
+    padding-left: 5%;
+}*/
+/*.profile input{
+    border: 1px black solid;
+}*/
+.profile img{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    padding: 5% 5%;
+}
+.profile input{
+    padding-left: 5%;
+}
+.profile label{
+    padding-left: 5%;
+}
+.main_inputs{
+    padding: 2% 5%;
+    display: block;
+    width: 90%;
+}
+.main_inputs input{
+    width: 100%;
+    margin: 2% 0 10% 0;
+    border: 1px black solid;
+    padding: 1% 0 1%;
+}
+.check_form p{
+    margin: 0 5% 3% 5%;
+}
+.check_form{
+    display: flex;
+    flex-direction: column;
+}
+.check_form span{
+    padding: 2% 5% 0 5%;
+}
+.textarea{
+    padding: 10% 5%;
+}
+.textarea textarea{
+    border: 1px solid black;
+    width: 100%;
+}
+.submit{
+    padding: 5%;
+    margin-left: 5%;
+    border: 1px solid black;
+    width: 25%;
+    margin-bottom: 10%;
+    background-color: black;
+}
+.submit input{
+    color: white;
+}
+
 
 @media screen and (min-width: 545px){
     .header img{
