@@ -197,19 +197,49 @@ padding: 15px 30px;
     margin-left: 25px;
 }
 .background{
+    padding: 1% 0 10% 0;
     background-color: #0B1942;
 }
 .background h2{
-    padding: 5% 5%;
+    margin: 3% 5% 3% 5%;
     color: white;
 }
-.calendar ul{
-    padding: 0;
-    margin: 0;
+.calendar{
     display: flex;
+}
+.calendar ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: white;
 }
 .calendar ul li{
     color: white;
+    list-style-type: none;
+    display: flex;
+    height: 15vh;
+    font-size: 12px;
+    justify-content: flex-start;
+    flex: 0 7 13.825%;
+    border: 1px solid #0B1942;
+}
+.calendar span{
+    border: #0B1942 1px solid;
+    background-color: #0B1942;
+    margin: 0;
+    height: 25px;
+    width: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.empty {
+    background-color: #0B1942;
+}
+.active{
+    background-color: #F5005B;
 }
 
 
